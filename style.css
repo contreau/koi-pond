@@ -31,6 +31,17 @@ html {
   filter: drop-shadow(calc(14px * 4) calc(14px / 3) 5px rgba(0, 0, 0, 0.3));
 }
 
+@media (min-width: 810px) and (max-width: 1600px) {
+  .pond {
+    margin-top: 30px;
+    width: 720px;
+    height: 720px;
+  }
+  .fish {
+    filter: drop-shadow(calc(14px * -4) calc(14px / 3) 5px rgba(0, 0, 0, 0.3));
+  }
+}
+
 #yin {
   animation: swimOrange 15s linear infinite;
 }
